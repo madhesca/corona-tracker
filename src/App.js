@@ -17,7 +17,7 @@ class App extends React.Component {
     const { data } = this.state;
     return (
       <div className={styles.container}>
-        <h3>Continue on 43:27</h3>
+        <h3>Continue on 1:00:30</h3>
         <Cards data={data} />
         <CountryPicker />
         <Chart />
