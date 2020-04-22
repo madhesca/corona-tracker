@@ -9,6 +9,14 @@ body {
   flex-direction: column;
 }
 
+.title {
+  color: red;
+  font-weight: 200;
+  font-size: 5.6rem;
+  padding: 0;
+  margin: 0;
+}
+
 .image {
   width: 370px;
   margin-top: 50px;
@@ -18,8 +26,8 @@ body {
   .container {
     margin: 0 10%;
   }
-}
 
-.image {
-  width: 100%;
+  .image {
+    width: 100%;
+  }
 }

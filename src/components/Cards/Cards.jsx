@@ -7,7 +7,7 @@ import styles from "./Cards.module.css";
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   if (!confirmed) return "Loading";
-  console.log(confirmed);
+
   return (
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
@@ -58,9 +58,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant="body2">
-              Number of Recovered patients
-            </Typography>
+            <Typography variant="body2">Recovered patients</Typography>
           </CardContent>
         </Grid>
         <Grid
